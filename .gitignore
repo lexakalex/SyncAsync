@@ -1,0 +1,6 @@
+*.dll
+**/bin/**
+**/csx/**
+**/obj/**
+packages/**
+.vs/**

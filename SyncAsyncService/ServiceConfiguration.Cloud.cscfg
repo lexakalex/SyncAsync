@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="SyncAsyncService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="SyncAsyncWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=64portalvhds9scfxnqrsspv;AccountKey=c2RtCvj+RZ0NUqGgrmbCpREKRHA5FQcLIEQn6tw6pafxHsGmHGPWb91KPlWyS8FJWBY48VJpE6lX0aDdRDnVPQ==" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="f37be584-083a-4602-9871-d409d44f20a2" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
